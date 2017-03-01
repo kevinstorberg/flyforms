@@ -5,7 +5,7 @@ require 'flyforms/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "flyforms"
-  spec.version       = Flyforms::VERSION
+  spec.version       = FlyForms::VERSION
   spec.authors       = ["Ooftypop"]
   spec.email         = ["kevin@storberg.net"]
 

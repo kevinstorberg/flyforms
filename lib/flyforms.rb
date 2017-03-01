@@ -1,5 +1,5 @@
 require "flyforms/version"
 
-module Flyforms
+module FlyForms
   # Your code goes here...
 end
