@@ -11,6 +11,8 @@ module FlyForms
     return destroy_form_settings if action == 'destroy'
   end
 
+  private
+
   def post_form_settings
     instance = instance_variable_get("@#{@class_name.downcase}")
     current_user.settings[@form_name_symbol] = instance
