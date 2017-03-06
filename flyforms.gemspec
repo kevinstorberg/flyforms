@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'flyforms/version'
+require 'fly_forms/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "flyforms"
+  spec.name          = "fly_forms"
   spec.version       = FlyForms::VERSION
   spec.authors       = ["Ooftypop"]
   spec.email         = ["kevin@storberg.net"]
