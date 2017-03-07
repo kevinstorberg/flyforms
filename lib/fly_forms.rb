@@ -1,4 +1,4 @@
-require "flyforms/version"
+require "fly_forms/version"
 
 module FlyForms
   extend ActiveSupport::Concern
@@ -10,8 +10,6 @@ module FlyForms
     return get_form_settings     if action == 'get'
     return destroy_form_settings if action == 'destroy'
   end
-
-  private
 
   def post_form_settings
     instance = instance_variable_get("@#{@class_name.downcase}")
